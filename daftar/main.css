@@ -1,0 +1,18 @@
+.form-control::placeholder {
+  opacity: 0.5;
+}
+.container-atas {
+  margin-top: 88.8px;
+  margin-left: 20px;
+}
+.form-login {
+  margin-top: 48.38px;
+}
+.green-text {
+  color: #00a991;
+  text-decoration: none;
+}
+.login-button {
+  background-color: #009a84;
+  color: white;
+}
