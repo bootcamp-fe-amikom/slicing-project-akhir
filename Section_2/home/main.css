@@ -3,6 +3,7 @@
 /* Avatar */
 body {
   background-color: #fafafa;
+  overflow: auto;
 }
 .avatar {
   width: 60px;
@@ -12,21 +13,16 @@ body {
   background-size: cover;
 }
 
-/* Container */
-.container {
-  margin-top: 19px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
 /* Card */
-.card {
+.card-project {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
+  margin-top: 32px;
+  width: 282px;
 }
 
-.card-body {
+.card-project-body {
   margin-left: -16px;
   margin-right: -16px;
   padding-bottom: 0px;
@@ -35,10 +31,6 @@ body {
 /* Progress bar */
 .progress {
   margin-bottom: 12px;
-}
-
-.progress-bar {
-  width: 50%;
 }
 
 /* Total donasi */
@@ -51,6 +43,53 @@ body {
   margin-top: -5px;
   opacity: 0.5;
 }
-
-.card-daftar {
+.title-content {
+  margin-top: 19px;
+}
+.title-main {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.title-desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: light;
+}
+.history-donasi {
+  margin-top: 39px;
+}
+.card-history {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.body-card-history {
+  margin: 18px 0px 19px 17.8px;
+  padding: 0;
+}
+.history-img {
+  margin-left: 10.86px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75.99px;
+  height: 70px;
+}
+.left-content-card {
+  padding-left: 0px;
+}
+.img-card {
+  padding-right: 0px;
+}
+.warna-progress {
+  background-color: #00bf99 !important;
 }
