@@ -4,6 +4,7 @@
 body {
   background-color: #fafafa;
   overflow: auto;
+  height: 100dvh;
 }
 .avatar {
   width: 60px;
@@ -45,6 +46,7 @@ body {
 }
 .title-content {
   margin-top: 19px;
+  padding-bottom: 70px;
 }
 .title-main {
   font-family: "Poppins", sans-serif;
@@ -92,4 +94,8 @@ body {
 }
 .warna-progress {
   background-color: #00bf99 !important;
+}
+.navbar {
+  z-index: 1000; /* Atur nilai z-index sesuai kebutuhan */
+  background-color: white;
 }
