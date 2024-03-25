@@ -1,0 +1,56 @@
+/* Gaya CSS dari main.css */
+
+/* Avatar */
+body {
+  background-color: #fafafa;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-size: cover;
+}
+
+/* Container */
+.container {
+  margin-top: 19px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+/* Card */
+.card {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.card-body {
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-bottom: 0px;
+}
+
+/* Progress bar */
+.progress {
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  width: 50%;
+}
+
+/* Total donasi */
+.total-donasi {
+  color: #00bf99;
+}
+
+/* Card text */
+.card-text {
+  margin-top: -5px;
+  opacity: 0.5;
+}
+
+.card-daftar {
+}

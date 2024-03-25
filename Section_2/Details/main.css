@@ -1,0 +1,103 @@
+/* Default background for all elements */
+
+body {
+  background-color: #fafafa;
+  position: relative;
+}
+
+/* White background for the card itself */
+.container-card {
+  background-color: #ffff;
+  padding: 30px 20px 24px 20px;
+}
+
+.title-donation {
+  color: white;
+}
+.container-full {
+  margin-top: -35%;
+  position: relative; /* Set position to relative */
+  z-index: 2; /* Higher z-index to appear in front */
+}
+
+/* Progress bar */
+.progress {
+  margin-bottom: 16px;
+}
+
+.progress-bar {
+  width: 50%;
+}
+.container-card .progress .progress-bar.warna-progress {
+  /* Existing styles */
+  width: 50%;
+  color: #00bf99;
+  background-color: #00bf99;
+}
+
+/* Total donasi */
+.text-donasi {
+  color: #00bf99;
+}
+.nominal-amount {
+  padding: 14px 18px 14px 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.button-sumbang {
+  padding: 16px 99px 16px 99px;
+  background-color: #009a84;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 46px;
+  color: white;
+  white-space: nowrap; /* Text won't wrap */
+  overflow: hidden; /* Any overflow is hidden */
+}
+.title-card {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.title-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  margin-bottom: 33px;
+}
+.donation-need {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.total-donasi {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 36px;
+}
+
+.title-donation h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+.title-donation p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: -5px;
+}
+.title-nominal {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: light;
+}
+.text-muted {
+  opacity: 50%;
+  font-style: light;
+  font-weight: normal; /* Added to remove bold */
+}
