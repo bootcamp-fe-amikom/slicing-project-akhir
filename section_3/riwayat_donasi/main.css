@@ -1,0 +1,62 @@
+/* Gaya CSS dari main.css */
+
+body {
+  background-color: #fafafa;
+  overflow: auto;
+  height: 100dvh;
+}
+/* Card text */
+.card-text {
+  margin-top: -5px;
+  opacity: 0.5;
+}
+
+.history-donasi {
+  margin-top: 39px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.card-history {
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.body-card-history {
+  margin: 18px 0px 19px 17.8px;
+  padding: 0;
+}
+.history-img {
+  margin-left: 10.86px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75.99px;
+  height: 70px;
+}
+.left-content-card {
+  padding-left: 0px;
+}
+.img-card {
+  padding-right: 0px;
+}
+
+.navbar {
+  z-index: 1000; /* Atur nilai z-index sesuai kebutuhan */
+  background-color: white;
+}
+.col-2 {
+  display: flex;
+  padding-left: 0px;
+  align-items: center; /* Vertically center */
+}
+
+/* Adjust margin for better alignment */
