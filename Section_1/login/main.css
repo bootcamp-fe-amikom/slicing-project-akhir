@@ -3,6 +3,7 @@
 /* Placeholder teks */
 body {
   background-color: #fafafa;
+  max-width: 576px;
 }
 .form-control::placeholder {
   opacity: 0.5;

@@ -1,6 +1,9 @@
 /* Gaya CSS dari main.css */
+
 body {
+  max-width: 576px;
   background-color: #fafafa;
+  height: 100dvh;
 }
 /* Placeholder teks */
 .form-control::placeholder {
@@ -9,7 +12,7 @@ body {
 
 /* Margin atas untuk container */
 .container-atas {
-  margin-top: 88.8px;
+  padding-top: 88.8px;
 }
 
 /* Margin atas untuk form login */

@@ -1,6 +1,8 @@
 /* Gaya CSS dari main.css */
 
 body {
+  max-width: 576px;
+
   background-color: #fafafa;
   overflow: auto;
   height: 100dvh;

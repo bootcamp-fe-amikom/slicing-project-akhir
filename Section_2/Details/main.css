@@ -2,7 +2,9 @@
 
 body {
   background-color: #fafafa;
-  position: relative;
+  /* position: relative; */
+  max-width: 576px;
+  height: 100dvh;
 }
 
 /* White background for the card itself */
@@ -16,7 +18,7 @@ body {
 }
 .container-full {
   margin-top: -35%;
-  position: relative; /* Set position to relative */
+  position: relative;
   z-index: 2; /* Higher z-index to appear in front */
 }
 
@@ -78,6 +80,7 @@ body {
   font-weight: 700;
   font-style: normal;
   margin-bottom: 36px;
+  max-width: 576px;
 }
 
 .title-donation h1 {

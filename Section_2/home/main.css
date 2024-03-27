@@ -5,6 +5,7 @@ body {
   background-color: #fafafa;
   overflow: auto;
   height: 100dvh;
+  max-width: 576px;
 }
 .avatar {
   width: 60px;
@@ -96,6 +97,7 @@ body {
   background-color: #00bf99 !important;
 }
 .navbar {
-  z-index: 1000; /* Atur nilai z-index sesuai kebutuhan */
+  z-index: 4; /* Atur nilai z-index sesuai kebutuhan */
   background-color: white;
+  max-width: 576px;
 }

@@ -4,6 +4,7 @@ body {
   background-color: #fafafa;
   overflow: auto;
   height: 100dvh;
+  max-width: 576px;
 }
 .banner {
   background: #fafafa;

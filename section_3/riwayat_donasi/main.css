@@ -4,6 +4,7 @@ body {
   background-color: #fafafa;
   overflow: auto;
   height: 100dvh;
+  max-width: 576px;
 }
 /* Card text */
 .card-text {
@@ -12,7 +13,7 @@ body {
 }
 
 .history-donasi {
-  margin-top: 39px;
+  padding-top: 39px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -60,3 +61,9 @@ body {
 }
 
 /* Adjust margin for better alignment */
+
+.navbar {
+  z-index: 4; /* Atur nilai z-index sesuai kebutuhan */
+  background-color: white;
+  max-width: 576px;
+}
